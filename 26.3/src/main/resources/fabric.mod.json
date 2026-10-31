@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "itemchallenge",
+  "version": "${version}",
+  "name": "Item Challenge",
+  "description": "Collect every item in the game, one at a time, in random order.",
+  "authors": ["Niklas"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.niklas.itemchallenge.ItemChallengeClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "fabric-api": "*",
+    "minecraft": "~26.3",
+    "java": ">=25"
+  }
+}
